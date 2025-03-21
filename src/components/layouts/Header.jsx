@@ -59,7 +59,7 @@ export default function Header({
             <Star className="h-4 w-4 transition-all group-hover:animate-spin" />
           }
           label="Stars on Github"
-          src="https://github.com/JhojanGgarcia/Aros"
+          src="https://github.com/JhojanGgarcia/arosade"
         />
 
         <Button
