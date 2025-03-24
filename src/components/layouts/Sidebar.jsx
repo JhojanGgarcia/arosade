@@ -43,8 +43,8 @@ function Sidebar({
 
       <div className="absolute right-0 hidden h-screen w-4 border-x border-x-white bg-[image:repeating-linear-gradient(315deg,_white_0,_white_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed opacity-5 md:block dark:border-black dark:bg-[image:repeating-linear-gradient(315deg,_black_0,_black_1px,_transparent_0,_transparent_50%)]" />
 
-      <div className="relative flex flex-1 flex-col overflow-y-auto">
-        <div className="flex flex-1 flex-col px-0 pb-6 md:px-4">
+      <div className="relative flex flex-col overflow-y-auto">
+        <div className="flex flex-col px-0 pb-24 md:px-4">
           {children}
 
           <LogoUploader
