@@ -116,7 +116,7 @@ function AppContent() {
 
         <aside
           ref={sidebarRef}
-          className={`fixed top-1/2 left-1/2 z-50 h-full w-5/5 max-w-md -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-white/10 bg-black/5 backdrop-blur-md transition-opacity duration-300 ease-in-out dark:bg-white ${
+          className={`absolute top-1/3 left-1/2 z-50 h-full w-5/5 max-w-md -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-white/10 bg-black/5 backdrop-blur-md transition-opacity duration-300 ease-in-out dark:bg-white ${
             showSidebar ? "opacity-100" : "pointer-events-none opacity-0"
           } md:hidden`}
           style={{ maxHeight: "calc(100vh - 120px)" }}
@@ -191,7 +191,7 @@ function AppContent() {
           </div>
         )}
 
-        <aside className="hidden w-64 flex-shrink-0 md:block">
+        <aside className="relative hidden w-64 flex-shrink-0 md:block">
           <Sidebar
             name={name}
             handleNameChange={handleNameChange}
